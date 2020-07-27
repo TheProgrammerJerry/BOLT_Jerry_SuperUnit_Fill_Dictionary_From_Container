@@ -23,3 +23,9 @@ Note: The included asset's demo scene has some warnings about missing scripts wh
 The above image is of the Super Unit. It takes in a key format and the container that has the objects to put into a dictionary. Out, you get the counter of items and also the dictionary.
 
 The format of the key can be any string. In order to help, you can include %Iterator% and it will create numbered keys. For example, User%Iterator% will create a dictionary with User1, User2, and User3 as the keys if 3 game objects exists under the parent game object you are using.
+
+
+
+# Bring Into Project (How to use)
+Import the unityasset like you would any asset. From there, use the super unit (JerryBOLT_V1_Utility_SUPERUNIT_FillDictionaryWithGameObjects_V0002) included in your BOLT Graphs.
+
